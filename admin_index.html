@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>业务管理系统</title>
+    <!-- Bootstrap -->
+    <link href="./static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/admin_index.css">
+</head>
+
+<body>
+    <div id="page" class="container-fluid">
+        <div class="row content">
+            <div class="hidden-xs col-sm-2 col-md-2 col-lg-1 nav-left">
+                <img src="./static/images/nav-left-logo.png" alt="时光" class="img-rounded">
+                <div class="nav-list">
+                    <dl>
+                        <dt><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>新手入门</dt>
+                        <dd>
+                            <a href="./admin_example.html" target="mainFrame">注册账号</a>
+                        </dd>
+                        <dd>下载游戏</dd>
+                        <dd>游戏百科</dd>
+                        <dd>游戏类型</dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>进阶指南</dt>
+                        <dd>大招充能</dd>
+                        <dd>武器概览</dd>
+                        <dd>武器弹道</dd>
+                        <dd>地图分析</dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>高手必备</dt>
+                        <dd>地图攻略</dd>
+                        <dd>成就大全</dd>
+                        <dd>阵容搭配</dd>
+                        <dd>英雄数据</dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>地图介绍</dt>
+                        <dd>伊利奥斯</dd>
+                        <dd>漓江塔</dd>
+                        <dd>66号公路</dd>
+                        <dd>花村</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="right-top col-xs-12 col-sm-10 col-md-10 col-lg-11">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 title">
+                        <h1>游戏饭盒</h1>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2 col-sx-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-7 user-info">
+                        <div class="name">托比奥·戈</div>
+                        <div class="icon"></div>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav nav-pills col-xs-12 hidden-sm hidden-md hidden-lg" role="tablist">
+                <!-- <li role="presentation" class="active"><a href="#">菜单</a></li> -->
+                <li role="presentation" class="dropdown">
+                    <a id="drop4" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        新手入门<span class="caret"></span>
+                    </a>
+                    <ul id="menu1" class="dropdown-menu" aria-labelledby="drop4">
+                        <li><a href="./admin_example.html" target="mainFrame">注册账号</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">下载游戏</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">游戏百科</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">游戏类型</a></li>
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a id="drop5" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        进阶指南<span class="caret"></span>
+                    </a>
+                    <ul id="menu2" class="dropdown-menu" aria-labelledby="drop5">
+                        <li><a href="#">大招充能</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">武器概览</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">武器弹道</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">地图分析</a></li>
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a id="drop6" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    高手必备<span class="caret"></span></a>
+                    <ul id="menu3" class="dropdown-menu" aria-labelledby="drop6">
+                        <li><a href="#">地图攻略</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">成就大全</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">阵容搭配</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">英雄数据</a></li>
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a id="drop6" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    地图介绍<span class="caret"></span></a>
+                    <ul id="menu3" class="dropdown-menu" aria-labelledby="drop6">
+                        <li><a href="#">伊利奥斯</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">漓江塔</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">66号公路</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">花村</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="right-main col-xs-12 col-sm-10 col-md-10 col-lg-11">
+                <iframe name="mainFrame" height="100%" width="100%" id="mainFrame" frameborder="no" scrolling="auto" hidefocus=""></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="./static/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./static/js/admin_index.js"></script>
+</body>
+
+</html>

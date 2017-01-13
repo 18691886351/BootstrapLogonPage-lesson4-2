@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif;
+}
+
+#page {
+    margin: 20px;
+}
+
+#page .title {
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+    background-color: #00BDFF;
+}
+
+#page .hero-info .title .icon {
+    margin-left: 10px;
+}
+
+#page .hero-info .title .text {
+    color: white;
+}
+
+#page .hero-info .detail ul {
+    margin-top: 20px;
+}
+
+#page .hero-info .detail ul li {
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#page .hero-info .detail {
+    height: 100px;
+}
+
+#page .hero-info .detail ul li {
+    margin-left: 10px;
+}
+
+#page .hero-info .detail ul li a {
+    height: 100px;
+    display: block;
+}
+
+#page .hero-info .detail ul li a img {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+#page .hero-info .detail ul li a span {
+    display: block;
+}

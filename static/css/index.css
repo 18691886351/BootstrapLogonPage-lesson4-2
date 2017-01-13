@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* min-height: 500px;*/
+    min-width: 320px;
+    font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif;
+    background: url("../images/page_background2.png") no-repeat;
+    background-size: cover;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+#page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#page .logon_dialog {
+    background: url("../images/logon_dialog_background.png") no-repeat;
+    background-size: cover;
+    /* width: 580px; */
+    height: 380px;
+    -moz-border-radius: 15px;
+    /* Gecko browsers */
+    -webkit-border-radius: 15px;
+    /* Webkit browsers */
+    border-radius: 15px;
+    /* W3C syntax */
+    padding: 15px;
+}
+
+#page .logon_dialog .warp {
+    background: #fff;
+    /* width: 550px; */
+    height: 350px;
+    -moz-border-radius: 15px;
+    /* Gecko browsers */
+    -webkit-border-radius: 15px;
+    /* Webkit browsers */
+    border-radius: 15px;
+    border: 1px solid #75A5C6;
+    padding: 10px;
+}
+
+#page .logon_dialog .warp .title {
+    background: url("../images/title.png") no-repeat;
+    background-size: cover;
+    /* width: 530px; */
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#page .logon_dialog .warp .lock_icon {
+    /* margin: 30px 0 30px 10px; */
+    background: url("../images/lock&User.png") no-repeat;
+    background-size: contain;
+    height: 82px;
+    /*width: 204px;
+	height: 82px; */
+}
+
+#page .logon_dialog .warp .input_box {
+    margin: 30px 0;
+}
